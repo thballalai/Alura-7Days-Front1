@@ -1,0 +1,146 @@
+.vagas {
+    padding: 6em;
+}
+
+.vagas__presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.125em;
+}
+
+.vagas__presentation__subtitle {
+    color: var(--color-secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 4px 12px;
+    background-color: var(--color-secondary-o);
+    border-radius: 16px;
+}
+
+.vagas__presentation__title {
+    font-size: 2.125rem;
+    font-weight: 600;
+    color: var(--color-font-title);
+    letter-spacing: -0.72px;
+    line-height: 2.75rem;
+}
+
+.vagas__presentation__text {
+    color: var(--color-font-text);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.vagas__presentation__img {
+    margin: 4em 2em;
+}
+
+.vagas__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+}
+
+.vagas__jobs__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 60%;
+}
+
+.vagas__jobs__list__title {
+    color: var(--color-font-title);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    margin-bottom: 0.5em;
+}
+
+.vagas__jobs__list__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1.5em 1.5em 1.75em 1.5em;
+    border: 1px solid var(--color-vagas-border);
+    border-radius: 16px;
+}
+
+.vagas__jobs__list__name {
+    color: var(--color-font-title);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.vagas__jobs__list__span {
+    display: flex;
+    gap: 1.5em;
+}
+
+.vagas__jobs__list__time, .vagas__jobs__list__remuneration {
+    color: var(--color-font-text);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.depoimento {
+    padding-bottom: 6em;
+}
+
+.depoimento__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    background-color: var(--color-secondary-o);
+    border-radius: 16px;
+    padding: 4em;
+}
+
+.depoimento__quote, .depoimento__profile {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.depoimento__container__subtitle {
+    color: var(--color-secondary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.depoimento__container__quote {
+    color: var(--color-font-title);
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+    letter-spacing: -0.72px;
+    text-align: center;
+}
+
+.depoimento__profile__img {
+    width: 56px;
+    border-radius: 50%;
+}
+
+.depoimento__profile__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.depoimento__profile__name {
+    color: var(--color-font-title);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.depoimento__profile__job {
+    color: var(--color-font-text);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}

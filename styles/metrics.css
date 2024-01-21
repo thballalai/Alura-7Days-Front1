@@ -1,0 +1,26 @@
+.metrics__content {
+    display: flex;
+    gap: 5em;
+}
+
+.metrics__item {
+    width: 25%;
+}
+
+.metrics__item__subtitle {
+    font-size: 5.75rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    line-height: 4.5rem;
+}
+
+.metrics__item__title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--color-font-title);
+    margin: 1em 0;
+}
+
+.metrics__item__text {
+    color: var(--color-font-text);
+}

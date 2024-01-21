@@ -1,0 +1,45 @@
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./metrics.css);
+@import url(./vagas.css);
+@import url(./rodape.css);
+
+:root {
+    --color-principal: #ffffff;
+    --color-secondary: #8E2424;
+    --color-secondary-o: #8E24240D;
+    --color-rodape-background: #F9FAFB;
+
+
+    --font-family-principal: "Inter";
+    --color-logo-text: #3A404E;
+    --color-font-title: #101828; 
+    --color-font-text: #667085;
+
+    --color-font-copyright: #98A2B3;
+    --color-email-border: #D0D5DD;
+
+    --color-vagas-border: #EAECF0;
+
+    --color-shadow: #1018280d;
+}
+
+body {
+    background-color: var(--color-principal);
+    font-family: var(--font-family-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.container {
+    margin: 0 5em;
+}
+
+.button__pattern {
+    color: var(--color-principal);
+    background-color: var(--color-secondary);
+    padding: 0.625em 1.125em;
+    border: 1px solid var(--color-secondary);
+    border-radius: 8px;
+}

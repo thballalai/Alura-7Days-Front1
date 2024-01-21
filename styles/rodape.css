@@ -1,0 +1,64 @@
+.rodape {
+    background-color: var(--color-rodape-background);
+    padding: 6em 0;
+    text-align: center;
+}
+
+.rodape__contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    margin-bottom: 2em;
+}
+
+.rodape__contact-us__title {
+    color: var(--color-font-title);
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    letter-spacing: -0.72px;
+}
+
+.rodape__contact-us__input {
+    margin-top: 1.25em;
+}
+
+.rodape__contact-us__text {
+    color: var(--color-font-text);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.rodape__contact-us__email {
+    background-color: var(--color-principal);
+    width: 21em;
+    padding: 0.875em;
+    border: 1px solid var(--color-email-border);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px var(--color-shadow);
+}
+
+.rodape__contact-us__email::placeholder {
+    color: var(--color-font-text);
+    font-family: var(--font-family-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.rodape__contact-us__link {
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: 500;
+    line-height: 1.5rem;
+    background-color: var(--color-secondary);
+    padding: 0.75em 1.25em;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px var(--color-shadow);
+    margin: 1em;
+}
+
+.rodape__copyright {
+    color: var(--color-font-copyright);
+    line-height: 1.5rem;
+}
